@@ -4,15 +4,27 @@ List of themes, icons, cursors, and fonts for Linux desktop environments.
 
 ## Table of Contents <!-- omit in toc -->
 
-{% for category, items in data.items() if items %}
-- [{{ category|title }}](#{{ category }})
-{% endfor %}
+{% for category, items in data.items() if items %}- [{{ category|title }}](#{{ category|lower|replace(' ', '-') }})
+{% if category == "themes" %}{% for submenu in items %}  - [{{ submenu }}](#{{ submenu|lower|replace(' ', '-') }})
+{% endfor %}{% endif %}{% endfor %}
 
-{% for category, items in data.items() if items %}
+## Themes
+
+{% for submenu, submenu_items in data.themes.items() %}
+### {{ submenu }}
+
+{% for name, item in submenu_items.items() %}
+- [{{ name }}]({{ item.url }})
+{% endfor %}
+{% if not loop.last %}
+
+{% endif %}
+{% endfor %}
+{% for category, items in data.items() if category != "themes" and items %}
+
 ## {{ category|title }}
 
 {% for name, item in items.items() %}
 - [{{ name }}]({{ item.url }})
 {% endfor %}
-
 {% endfor %}
