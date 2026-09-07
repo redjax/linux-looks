@@ -113,8 +113,8 @@ def main(
         log.debug("Rendered template:\n%s", readme)
 
         (output_file).write_text(readme)
-    except Exception as exc:
-        log.error(f"({type(exc).__name__}) Failed rendering template: {exc}")
+    except Exception:
+        raise
 
     log.info(f"Template rendered to: {output_file}")
 
@@ -151,5 +151,7 @@ if __name__ == "__main__":
             template_file=args.template_file,
             output_file=args.output_file,
         )
+    except Exception as exc:
+        log.error(f"({type(exc).__name__}) Failed to render template: {exc}")
     finally:
         os.chdir(CWD)
