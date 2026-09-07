@@ -33,6 +33,16 @@ themes:
       url: https://github.com/vinceliuice/Jasper-gtk-theme
     Ant:
       url: https://github.com/EliverLara/Ant
+    Graphite:
+      url: https://github.com/vinceliuice/Graphite-gtk-theme
+
+  Gnome Shell:
+    Flat Remix:
+      url: https://github.com/daniruiz/flat-remix-gnome
+    BigSur OE2:
+      url: https://github.com/shashi2033/bigsur-OE2
+    Rounded Rectangle Dark:
+      url: https://github.com/metro2222/Rounded-Rectangle-dark-transparent
 
 icons:
   Qogir:
