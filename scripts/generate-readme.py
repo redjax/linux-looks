@@ -9,6 +9,7 @@ import os
 from pathlib import Path
 import argparse
 import logging
+from datetime import datetime, timezone
 
 import yaml
 from jinja2 import Environment, FileSystemLoader
@@ -108,7 +109,15 @@ def main(
     ## Render data from file to README template. Ensure newline at end of file.
     log.info("Rendering template")
     try:
-        readme = template.render(data=data).rstrip() + "\n"
+        now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+
+        readme = (
+            template.render(
+                data=data,
+                now=now,
+            ).rstrip()
+            + "\n"
+        )
 
         log.debug("Rendered template:\n%s", readme)
 
