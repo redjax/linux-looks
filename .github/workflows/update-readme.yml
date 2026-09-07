@@ -1,0 +1,74 @@
+---
+name: Update README
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".raw/data.yml"
+      - ".templates/README.md.j2"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: update-readme
+  cancel-in-progress: true
+
+jobs:
+  update-readme:
+    name: Generate README
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      - name: Set up Python
+        run: uv python install 3.14
+
+      - name: Generate README
+        run: uv run scripts/generate-readme.py
+
+      - name: Create pull request
+        id: pull-request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: chore/update-readme
+          delete-branch: true
+          commit-message: "chore: automated README update"
+          title: "chore: automated README update"
+          body: |
+            This automated pull request updates `README.md`.
+
+            The README was regenerated from:
+
+            - `.raw/data.yml`
+            - `.templates/README.md.j2`
+
+            This pull request was created automatically by GitHub Actions.
+          labels: |
+            documentation
+            automated
+
+      - name: Enable auto-merge
+        if: steps.pull-request.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ steps.pull-request.outputs.pull-request-number }}
+        run: |
+          gh pr merge "$PR_NUMBER" \
+            --auto \
+            --squash \
+            --delete-branch
