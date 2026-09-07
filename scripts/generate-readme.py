@@ -109,6 +109,9 @@ def main(
     log.info("Rendering template")
     try:
         readme = template.render(data=data).rstrip() + "\n"
+
+        log.debug("Rendered template:\n%s", readme)
+
         (output_file).write_text(readme)
     except Exception as exc:
         log.error(f"({type(exc).__name__}) Failed rendering template: {exc}")
