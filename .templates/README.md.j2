@@ -17,8 +17,7 @@ List of themes, icons, cursors, and fonts for Linux desktop environments.
 {% for submenu, submenu_items in data.themes.items() %}
 ### {{ submenu }}
 
-{% for name, item in submenu_items.items() %}
-- [{{ name }}]({{ item.url }})
+{% for name, item in submenu_items|dictsort %}- [{{ name }}]({{ item.url }})
 {% endfor %}
 {% if not loop.last %}
 
@@ -28,7 +27,6 @@ List of themes, icons, cursors, and fonts for Linux desktop environments.
 
 ## {{ category|title }}
 
-{% for name, item in items.items() %}
-- [{{ name }}]({{ item.url }})
+{% for name, item in items|dictsort %}- [{{ name }}]({{ item.url }})
 {% endfor %}
 {% endfor %}
