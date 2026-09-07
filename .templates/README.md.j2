@@ -1,0 +1,18 @@
+# Linux Looks <!-- omit in toc -->
+
+List of themes, icons, cursors, and fonts for Linux desktop environments.
+
+## Table of Contents <!-- omit in toc -->
+
+{% for category, items in data.items() if items %}
+- [{{ category|title }}](#{{ category }})
+{% endfor %}
+
+{% for category, items in data.items() if items %}
+## {{ category|title }}
+
+{% for name, item in items.items() %}
+- [{{ name }}]({{ item.url }})
+{% endfor %}
+
+{% endfor %}
