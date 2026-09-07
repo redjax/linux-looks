@@ -40,3 +40,25 @@ icons:
     url: https://github.com/USBA/Deepin-icon-theme
   Fantasy:
     url: https://github.com/yeyushengfan258/Fantasy-icon-theme
+
+cursors:
+  BreezeX:
+    url: https://github.com/ful1e5/BreezeX_Cursor
+  We10X:
+    url: https://github.com/yeyushengfan258/We10XOS-cursors
+  WhiteSure:
+    url: https://github.com/vinceliuice/WhiteSur-cursors
+  McMojave:
+    url: https://github.com/vinceliuice/McMojave-cursors
+  Qogir:
+    url: https://github.com/vinceliuice/Qogir-icon-theme/tree/master/src/cursors
+  Capitane:
+    url: https://github.com/keeferrourke/capitaine-cursors
+  Vimix:
+    url: https://github.com/vinceliuice/Vimix-cursors
+  Layan:
+    url: https://github.com/vinceliuice/Layan-cursors
+  Oreo:
+    url: https://github.com/varlesh/oreo-cursors
+  Volantes:
+    url: https://github.com/varlesh/volantes-cursors
