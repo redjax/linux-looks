@@ -57,6 +57,14 @@ themes:
       url: https://gitlab.com/mcder3/Nilium
     McMojave:
       url: https://github.com/vinceliuice/McMojave-kde
+    Layan:
+      url: https://github.com/vinceliuice/Layan-kde
+    Arc:
+      url: https://github.com/PapirusDevelopmentTeam/arc-kde
+    Qogir:
+      url: https://github.com/vinceliuice/Qogir-kde
+    Carl:
+      url: https://gitlab.com/jomada/carl
 
 icons:
   Qogir:
