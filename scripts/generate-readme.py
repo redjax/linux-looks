@@ -25,7 +25,7 @@ LOG_LEVEL: str = "INFO"
 
 DATA_FILENAME = DATA_DIR / "data.yml"
 TEMPLATE_FILENAME = "README.md.j2"
-OUTPUT_FILENAME = "test.README.md"
+OUTPUT_FILENAME = "README.md"
 
 
 def parse_args() -> argparse.Namespace:
