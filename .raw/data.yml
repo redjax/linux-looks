@@ -1,5 +1,38 @@
 ---
 themes:
+  GTK Themes:
+    Orchis:
+      url: https://github.com/vinceliuice/Orchis-theme
+    Prof Gnome:
+      url: https://github.com/paullinuxthemer/Prof-Gnome
+    WhiteSur:
+      url: https://github.com/vinceliuice/WhiteSur-gtk-theme
+    Mojave:
+      url: https://github.com/vinceliuice/Mojave-gtk-theme
+    Yaru Colors:
+      url: https://github.com/Jannomag/Yaru-Colors
+    Fluent:
+      url: https://github.com/vinceliuice/Fluent-gtk-theme
+    Skeuos:
+      url: https://github.com/daniruiz/skeuos-gtk
+    Layan:
+      url: https://github.com/vinceliuice/Layan-gtk-theme
+    Flat Remix:
+      url: https://github.com/daniruiz/Flat-Remix-GTK
+    Sweet:
+      url: https://github.com/EliverLara/Sweet
+    Colloid:
+      url: https://github.com/vinceliuice/Colloid-gtk-theme
+    Qogir:
+      url: https://github.com/vinceliuice/Qogir-theme
+    Tokyonight:
+      url: https://github.com/Fausto-Korpsvart/Tokyonight-GTK-Theme
+    Juno:
+      url: https://github.com/EliverLara/Juno
+    Jasper:
+      url: https://github.com/vinceliuice/Jasper-gtk-theme
+    Ant:
+      url: https://github.com/EliverLara/Ant
 
 icons:
   Qogir:
