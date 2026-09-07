@@ -44,6 +44,20 @@ themes:
     Rounded Rectangle Dark:
       url: https://github.com/metro2222/Rounded-Rectangle-dark-transparent
 
+  KDE Plasma:
+    We10XOS:
+      url: https://github.com/yeyushengfan258/We10XOS-kde
+    Materia:
+      url: https://github.com/PapirusDevelopmentTeam/materia-kde
+    Otto:
+      url: https://gitlab.com/jomada/otto
+    Moe:
+      url: https://gitlab.com/jomada/moe-theme
+    Nilium:
+      url: https://gitlab.com/mcder3/Nilium
+    McMojave:
+      url: https://github.com/vinceliuice/McMojave-kde
+
 icons:
   Qogir:
     url: https://github.com/vinceliuice/Qogir-icon-theme
