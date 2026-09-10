@@ -127,3 +127,39 @@ cursors:
     url: https://github.com/varlesh/oreo-cursors
   Volantes:
     url: https://github.com/varlesh/volantes-cursors
+
+gnome extensions:
+  Apps Menu:
+    url: https://extensions.gnome.org/extension/6/applications-menu/
+  Arc Menu:
+    url: https://extensions.gnome.org/extension/3628/arcmenu/
+  Caffeine:
+    url: https://extensions.gnome.org/extension/517/caffeine/
+  Clipboard:
+    url: https://extensions.gnome.org/extension/779/clipboard-indicator/
+  Dash to Dock:
+    url: https://extensions.gnome.org/extension/307/dash-to-dock/
+  Dash to Panel:
+    url: https://extensions.gnome.org/extension/1160/dash-to-panel/
+  Emoji Copy:
+    url: https://extensions.gnome.org/extension/6242/emoji-copy/
+  GSConnect:
+    url: https://extensions.gnome.org/extension/1319/gsconnect/
+  Impatience:
+    url: https://extensions.gnome.org/extension/277/impatience/
+  Just Perfection:
+    url: https://extensions.gnome.org/extension/3843/just-perfection/
+  Multi Monitor Bar:
+    url: https://extensions.gnome.org/extension/8773/multi-monitor-bar/
+  Places Indicator:
+    url: https://extensions.gnome.org/extension/8/places-status-indicator/
+  Tray Icons Reloaded:
+    url: https://extensions.gnome.org/extension/2890/tray-icons-reloaded/
+  Tweaks and Extensions in System Menu:
+    url: https://extensions.gnome.org/extension/1653/tweaks-in-system-menu/
+  User Themes:
+    url: https://extensions.gnome.org/extension/19/user-themes/
+  Vitals:
+    url: https://extensions.gnome.org/extension/1460/vitals/
+  Weather o'Clock:
+    url: https://extensions.gnome.org/extension/5470/weather-oclock/
