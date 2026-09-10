@@ -4,7 +4,7 @@ List of themes, icons, cursors, and fonts for Linux desktop environments.
 
 | Last Updated |
 | ------------ |
-| 2026-09-07 16:32 UTC |
+| 2026-09-10 05:15 UTC |
 
 ## Table of Contents <!-- omit in toc -->
 
@@ -14,6 +14,7 @@ List of themes, icons, cursors, and fonts for Linux desktop environments.
   - [KDE Plasma](#kde-plasma)
 - [Icons](#icons)
 - [Cursors](#cursors)
+- [Gnome Extensions](#gnome-extensions)
 
 ## Themes
 
@@ -90,3 +91,34 @@ List of themes, icons, cursors, and fonts for Linux desktop environments.
 - [Volantes](https://github.com/varlesh/volantes-cursors)
 - [We10X](https://github.com/yeyushengfan258/We10XOS-cursors)
 - [WhiteSur](https://github.com/vinceliuice/WhiteSur-cursors)
+
+## Gnome Extensions
+
+- [AppIndicator and KStatusNotifierItem Support](https://extensions.gnome.org/extension/615/appindicator-support/)
+- [Apps Menu](https://extensions.gnome.org/extension/6/applications-menu/)
+- [Arc Menu](https://extensions.gnome.org/extension/3628/arcmenu/)
+- [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
+- [Clipboard](https://extensions.gnome.org/extension/779/clipboard-indicator/)
+- [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
+- [Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/)
+- [Emoji Copy](https://extensions.gnome.org/extension/6242/emoji-copy/)
+- [GSConnect](https://extensions.gnome.org/extension/1319/gsconnect/)
+- [Impatience](https://extensions.gnome.org/extension/277/impatience/)
+- [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/)
+- [Multi Monitor Bar](https://extensions.gnome.org/extension/8773/multi-monitor-bar/)
+- [Night Light Scheduler](https://extensions.gnome.org/extension/9683/night-light-scheduler/)
+- [No Overview](https://extensions.gnome.org/extension/4099/no-overview/)
+- [Places Indicator](https://extensions.gnome.org/extension/8/places-status-indicator/)
+- [Restart To](https://extensions.gnome.org/extension/7215/restart-to/)
+- [Snap Text](https://extensions.gnome.org/extension/10209/snap-text-extractor/)
+- [Status Area Horizontal Spacing](https://extensions.gnome.org/extension/355/status-area-horizontal-spacing/)
+- [Stop Notifications Focus Stealing](https://extensions.gnome.org/extension/10255/stop-notifications-focus-stealing/)
+- [Top Bar Organizer Plus](https://extensions.gnome.org/extension/10350/top-bar-organizer-plus/)
+- [Tray Icons Reloaded](https://extensions.gnome.org/extension/2890/tray-icons-reloaded/)
+- [Tweaks and Extensions in System Menu](https://extensions.gnome.org/extension/1653/tweaks-in-system-menu/)
+- [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
+- [Vitals](https://extensions.gnome.org/extension/1460/vitals/)
+- [VSCode Search Provider](https://extensions.gnome.org/extension/6976/vscode-search-provider/)
+- [Wack Sonoma Lockscreen](https://extensions.gnome.org/extension/9713/wack-sonoma-lockscreen/)
+- [Weather o'Clock](https://extensions.gnome.org/extension/5470/weather-oclock/)
+- [Window is Ready Notification Remover](https://extensions.gnome.org/extension/1007/window-is-ready-notification-remover/)
