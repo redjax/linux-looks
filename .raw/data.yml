@@ -163,3 +163,25 @@ gnome extensions:
     url: https://extensions.gnome.org/extension/1460/vitals/
   Weather o'Clock:
     url: https://extensions.gnome.org/extension/5470/weather-oclock/
+  Wack Sonoma Lockscreen:
+    url: https://extensions.gnome.org/extension/9713/wack-sonoma-lockscreen/
+  No Overview:
+    url: https://extensions.gnome.org/extension/4099/no-overview/
+  Window is Ready Notification Remover:
+    url: https://extensions.gnome.org/extension/1007/window-is-ready-notification-remover/
+  Top Bar Organizer Plus:
+    url: https://extensions.gnome.org/extension/10350/top-bar-organizer-plus/
+  Snap Text:
+    url: https://extensions.gnome.org/extension/10209/snap-text-extractor/
+  Restart To:
+    url: https://extensions.gnome.org/extension/7215/restart-to/
+  Night Light Scheduler:
+    url: https://extensions.gnome.org/extension/9683/night-light-scheduler/
+  VSCode Search Provider:
+    url: https://extensions.gnome.org/extension/6976/vscode-search-provider/
+  AppIndicator and KStatusNotifierItem Support:
+    url: https://extensions.gnome.org/extension/615/appindicator-support/
+  Stop Notifications Focus Stealing:
+    url: https://extensions.gnome.org/extension/10255/stop-notifications-focus-stealing/
+  Status Area Horizontal Spacing:
+    url: https://extensions.gnome.org/extension/355/status-area-horizontal-spacing/
